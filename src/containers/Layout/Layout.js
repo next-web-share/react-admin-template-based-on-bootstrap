@@ -1,17 +1,22 @@
 import React, { Component, Suspense } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
+
+import SidebarNav from './SidebarNav';
 
 // routes config
 import routes from '../../routes';
 
-class Layout extends Component {
+// sidebar nav config
+import navigation from '../../_nav';
 
+class Layout extends Component {
   loading = () => <div>Loading...</div>
 
   render() {
     return (
       <div className="app">
         <div className="app-body">
+          <SidebarNav navConfig={navigation} {...this.props} />
           <main className="main">
             <Suspense fallback={this.loading()}>
               <Switch>
