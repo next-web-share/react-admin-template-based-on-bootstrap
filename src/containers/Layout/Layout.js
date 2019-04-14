@@ -1,13 +1,17 @@
 import React, { Component, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import SidebarNav from './SidebarNav';
+import AppSidebarNav from '../SidebarNav';
+import AppFooter from '../Footer';
 
 // routes config
 import routes from '../../routes';
 
 // sidebar nav config
 import navigation from '../../_nav';
+
+// components
+const Footer = React.lazy(() => import('./Footer'));
 
 class Layout extends Component {
   loading = () => <div>Loading...</div>
@@ -16,7 +20,7 @@ class Layout extends Component {
     return (
       <div className="app">
         <div className="app-body">
-          <SidebarNav navConfig={navigation} {...this.props} />
+          <AppSidebarNav navConfig={navigation} {...this.props} />
           <main className="main">
             <Suspense fallback={this.loading()}>
               <Switch>
@@ -36,6 +40,11 @@ class Layout extends Component {
             </Suspense>
           </main>
         </div>
+        <AppFooter>
+          <Suspense fallback={this.loading()}>
+            <Footer />
+          </Suspense>
+        </AppFooter>
       </div>
     );
   }
