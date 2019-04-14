@@ -7,10 +7,12 @@ const propTypes = {
 
 const defaultProps = {};
 
-class DefaultFooter extends Component {
+class Footer extends Component {
   render() {
-    // eslint-disable-next-line
-    const { children, ...attributes } = this.props;
+    const {
+      children,
+      ...attributes
+    } = this.props;
 
     return (
       <>
@@ -21,7 +23,7 @@ class DefaultFooter extends Component {
   }
 }
 
-DefaultFooter.propTypes = propTypes;
-DefaultFooter.defaultProps = defaultProps;
+Footer.propTypes = propTypes;
+Footer.defaultProps = defaultProps;
 
-export default DefaultFooter;
+export default Footer;

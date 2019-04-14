@@ -15,12 +15,6 @@ const defaultProps = {
 };
 
 class Footer extends Component {
-  constructor(props) {
-    super(props);
-
-    this.isFixed = this.isFixed.bind(this);
-  }
-
   componentDidMount() {
     this.isFixed(this.props.fixed);
   }
@@ -37,7 +31,7 @@ class Footer extends Component {
       ...attributes
     } = this.props;
 
-    delete attributes.fixed
+    delete attributes.fixed;
 
     const classes = classNames(className, 'app-footer');
 
