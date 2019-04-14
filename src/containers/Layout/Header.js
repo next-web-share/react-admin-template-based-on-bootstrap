@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import { AppSidebarToggler } from '../SidebarToggler';
+import AppSidebarToggler from '../SidebarToggler';
 
 const propTypes = {
   children: PropTypes.node
@@ -14,7 +14,7 @@ class Header extends Component {
   render() {
     return (
       <>
-        Hello
+        <AppSidebarToggler className="d-lg-none" display="md" mobile />
       </>
     );
   }
