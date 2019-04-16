@@ -23,6 +23,12 @@ class Header extends Component {
   render() {
     return (
       <>
+        <AppSidebarToggler className="d-lg-none" display="md" mobile />
+        <AppNavbarBrand
+          full={{ src: logo, width: 89, height: 25, alt: 'Reactjs UI Logo' }}
+          minimized={{ src: sygnet, width: 30, height: 30, alt: 'Reactjs UI Logo' }}
+        />
+        <AppSidebarToggler className="d-md-down-none" display="lg" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#features">Features</Nav.Link>
