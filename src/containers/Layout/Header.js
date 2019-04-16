@@ -10,6 +10,9 @@ import AppAsideToggler from '../AsideToggler';
 import logo from '../../assets/img/brand/logo.png';
 import sygnet from '../../assets/img/brand/sygnet.png';
 
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+
 const propTypes = {
   children: PropTypes.node
 };
@@ -20,14 +23,12 @@ class Header extends Component {
   render() {
     return (
       <>
-        <AppSidebarToggler className="d-lg-none" display="md" mobile />
-        <AppNavbarBrand
-          full={{ src: logo, width: 89, height: 25, alt: 'CoreUI Logo' }}
-          minimized={{ src: sygnet, width: 30, height: 30, alt: 'CoreUI Logo' }}
-        />
-        <AppSidebarToggler className="d-md-down-none" display="lg" />
-
-        <AppAsideToggler className="d-md-down-none" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </>
     );
   }
