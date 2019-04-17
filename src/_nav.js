@@ -1,24 +1,41 @@
 export default {
   items: [
     {
+      name: 'Dashboard',
+      url: '/dashboard',
+      icon: 'fa fa-car',
+      badge: {
+        variant: 'info',
+        text: 'NEW',
+      },
+    },
+    {
+      title: true,
+      name: 'Components',
+      wrapper: {
+        element: '',
+        attributes: {},
+      },
+    },
+    {
       name: 'Buttons',
       url: '/buttons',
-      icon: 'icon-cursor',
+      icon: 'fa fa-car',
       children: [
         {
           name: 'Buttons',
           url: '/buttons/buttons',
-          icon: 'icon-cursor',
+          icon: 'fa fa-car',
         },
         {
           name: 'Button dropdowns',
           url: '/buttons/button-dropdowns',
-          icon: 'icon-cursor',
+          icon: 'fa fa-car',
         },
         {
           name: 'Button groups',
           url: '/buttons/button-groups',
-          icon: 'icon-cursor',
+          icon: 'fa fa-car',
         },
       ],
     },
