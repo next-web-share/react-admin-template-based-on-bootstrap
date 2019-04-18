@@ -3,7 +3,7 @@ export default {
     {
       name: 'Dashboard',
       url: '/dashboard',
-      icon: 'fa fa-car',
+      icon: 'fa fa-tachometer',
       badge: {
         variant: 'info',
         text: 'NEW',
@@ -21,12 +21,12 @@ export default {
     {
       name: 'Colors',
       url: '/theme/colors',
-      icon: 'fa fa-car',
+      icon: 'fa fa-eyedropper',
     },
     {
       name: 'Typography',
       url: '/theme/typography',
-      icon: 'fa fa-car',
+      icon: 'fa fa-pencil',
     },
     {
       title: true,
@@ -39,175 +39,175 @@ export default {
     {
       name: 'Base',
       url: '/base',
-      icon: 'icon-puzzle',
+      icon: 'fa fa-puzzle-piece',
       children: [
         {
           name: 'Breadcrumbs',
           url: '/base/breadcrumbs',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Cards',
           url: '/base/cards',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Carousels',
           url: '/base/carousels',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Collapses',
           url: '/base/collapses',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Dropdowns',
           url: '/base/dropdowns',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Forms',
           url: '/base/forms',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Jumbotrons',
           url: '/base/jumbotrons',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'List groups',
           url: '/base/list-groups',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Navs',
           url: '/base/navs',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Paginations',
           url: '/base/paginations',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Popovers',
           url: '/base/popovers',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Progress Bar',
           url: '/base/progress-bar',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Switches',
           url: '/base/switches',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Tables',
           url: '/base/tables',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Tabs',
           url: '/base/tabs',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
         {
           name: 'Tooltips',
           url: '/base/tooltips',
-          icon: 'fa fa-car',
+          icon: 'fa fa-puzzle-piece',
         },
       ],
     },
     {
       name: 'Buttons',
       url: '/buttons',
-      icon: 'fa fa-car',
+      icon: 'fa fa-location-arrow',
       children: [
         {
           name: 'Buttons',
           url: '/buttons/buttons',
-          icon: 'fa fa-car',
+          icon: 'fa fa-location-arrow',
         },
         {
           name: 'Button dropdowns',
           url: '/buttons/button-dropdowns',
-          icon: 'fa fa-car',
+          icon: 'fa fa-location-arrow',
         },
         {
           name: 'Button groups',
           url: '/buttons/button-groups',
-          icon: 'fa fa-car',
+          icon: 'fa fa-location-arrow',
         },
       ],
     },
     {
       name: 'Charts',
       url: '/charts',
-      icon: 'fa fa-car',
+      icon: 'fa fa-pie-chart',
     },
     {
       name: 'Editors',
       url: '/editors',
-      icon: 'fa fa-car',
+      icon: 'fa fa-code',
       children: [
         {
           name: 'Code Editors',
           url: '/editors/code-editors',
-          icon: 'fa fa-car',
+          icon: 'fa fa-code',
         },
         {
           name: 'Text Editors',
           url: '/editors/text-editors',
-          icon: 'fa fa-car',
+          icon: 'fa fa-code',
         },
       ],
     },
     {
       name: 'Forms',
       url: '/forms',
-      icon: 'fa fa-car',
+      icon: 'fa fa-edit',
       children: [
         {
           name: 'Basic Forms',
           url: '/forms/basic-forms',
-          icon: 'fa fa-car',
+          icon: 'fa fa-edit',
         },
         {
           name: 'Advanced Forms',
           url: '/forms/advanced-forms',
-          icon: 'fa fa-car',
+          icon: 'fa fa-edit',
         },
         {
           name: 'Validation',
           url: '/forms/validation-forms',
-          icon: 'fa fa-car',
+          icon: 'fa fa-edit',
         },
       ],
     },
     {
       name: 'Google Maps',
       url: '/google-maps',
-      icon: 'fa fa-car',
+      icon: 'fa fa-map',
     },
     {
       name: 'Icons',
       url: '/icons',
-      icon: 'fa fa-car',
+      icon: 'fa fa-star',
       children: [
         {
           name: 'Flags',
           url: '/icons/flags',
-          icon: 'fa fa-car',
+          icon: 'fa fa-star',
         },
         {
           name: 'Font Awesome',
           url: '/icons/font-awesome',
-          icon: 'fa fa-car',
+          icon: 'fa fa-star',
           badge: {
             variant: 'secondary',
             text: '4.7',
@@ -216,80 +216,80 @@ export default {
         {
           name: 'Simple Line Icons',
           url: '/icons/simple-line-icons',
-          icon: 'fa fa-car',
+          icon: 'fa fa-star',
         },
       ],
     },
     {
       name: 'Notifications',
       url: '/notifications',
-      icon: 'fa fa-car',
+      icon: 'fa fa-bell',
       children: [
         {
           name: 'Alerts',
           url: '/notifications/alerts',
-          icon: 'fa fa-car',
+          icon: 'fa fa-bell',
         },
         {
           name: 'Badges',
           url: '/notifications/badges',
-          icon: 'fa fa-car',
+          icon: 'fa fa-bell',
         },
         {
           name: 'Modals',
           url: '/notifications/modals',
-          icon: 'fa fa-car',
+          icon: 'fa fa-bell',
         },
         {
           name: 'Toastr',
           url: '/notifications/toastr',
-          icon: 'fa fa-car',
+          icon: 'fa fa-bell',
         },
       ],
     },
     {
       name: 'Plugins',
       url: '/plugins',
-      icon: 'fa fa-car',
+      icon: 'fa fa-bolt',
       children: [
         {
           name: 'Calendar',
           url: '/plugins/calendar',
-          icon: 'fa fa-car',
+          icon: 'fa fa-bolt',
         },
         {
           name: 'Draggable',
           url: '/plugins/draggable',
-          icon: 'fa fa-car',
+          icon: 'fa fa-bolt',
         },
         {
           name: 'Spinners',
           url: '/plugins/spinners',
-          icon: 'fa fa-car',
+          icon: 'fa fa-bolt',
         },
       ],
     },
     {
       name: 'Tables',
       url: '/tables',
-      icon: 'fa fa-car',
+      icon: 'fa fa-table',
       children: [
         {
           name: 'Data Table',
           url: '/tables/data-table',
-          icon: 'fa fa-car',
+          icon: 'fa fa-table',
         },
         {
           name: 'Tables',
           url: '/tables/tables',
-          icon: 'fa fa-car',
+          icon: 'fa fa-table',
         },
       ],
     },
     {
       name: 'Widgets',
       url: '/widgets',
-      icon: 'fa fa-car',
+      icon: 'fa fa-calculator',
       badge: {
         variant: 'info',
         text: 'NEW',
@@ -306,40 +306,40 @@ export default {
     {
       name: 'Pages',
       url: '/pages',
-      icon: 'fa fa-car',
+      icon: 'fa fa-star',
       children: [
         {
           name: 'Login',
           url: '/login',
-          icon: 'fa fa-car',
+          icon: 'fa fa-star',
         },
         {
           name: 'Register',
           url: '/register',
-          icon: 'fa fa-car',
+          icon: 'fa fa-star',
         },
         {
           name: 'Error 404',
           url: '/404',
-          icon: 'fa fa-car',
+          icon: 'fa fa-star',
         },
         {
           name: 'Error 500',
           url: '/500',
-          icon: 'fa fa-car',
+          icon: 'fa fa-star',
         },
       ],
     },
     {
       name: 'Disabled',
       url: '/dashboard',
-      icon: 'fa fa-car',
+      icon: 'fa fa-ban',
       attributes: { disabled: true },
     },
     {
       name: 'Download Reactjs UI',
       url: 'https://github.com/reactjsui/react-admin-template-based-on-bootstrap',
-      icon: 'fa fa-car',
+      icon: 'fa fa-download',
       class: 'mt-auto',
       variant: 'success',
       attributes: { target: '_blank', rel: "noopener" },
