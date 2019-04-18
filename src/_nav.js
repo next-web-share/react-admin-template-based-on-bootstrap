@@ -12,11 +12,11 @@ export default {
     {
       title: true,
       name: 'Theme',
-      wrapper: {            // optional wrapper object
-        element: '',        // required valid HTML5 element tag
-        attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
+      wrapper: { // optional wrapper object
+        element: '', // required valid HTML5 element tag
+        attributes: {} // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
       },
-      class: ''             // optional class names space delimited list for title item ex: "text-center"
+      class: '' // optional class names space delimited list for title item ex: "text-center"
     },
     {
       name: 'Colors',
@@ -219,6 +219,130 @@ export default {
           icon: 'fa fa-car',
         },
       ],
+    },
+    {
+      name: 'Notifications',
+      url: '/notifications',
+      icon: 'fa fa-car',
+      children: [
+        {
+          name: 'Alerts',
+          url: '/notifications/alerts',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Badges',
+          url: '/notifications/badges',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Modals',
+          url: '/notifications/modals',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Toastr',
+          url: '/notifications/toastr',
+          icon: 'fa fa-car',
+        },
+      ],
+    },
+    {
+      name: 'Plugins',
+      url: '/plugins',
+      icon: 'fa fa-car',
+      children: [
+        {
+          name: 'Calendar',
+          url: '/plugins/calendar',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Draggable',
+          url: '/plugins/draggable',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Spinners',
+          url: '/plugins/spinners',
+          icon: 'fa fa-car',
+        },
+      ],
+    },
+    {
+      name: 'Tables',
+      url: '/tables',
+      icon: 'fa fa-car',
+      children: [
+        {
+          name: 'Data Table',
+          url: '/tables/data-table',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Tables',
+          url: '/tables/tables',
+          icon: 'fa fa-car',
+        },
+      ],
+    },
+    {
+      name: 'Widgets',
+      url: '/widgets',
+      icon: 'fa fa-car',
+      badge: {
+        variant: 'info',
+        text: 'NEW',
+      },
+    },
+    {
+      title: true,
+      name: 'Extras',
+      wrapper: {
+        element: '',
+        attributes: {},
+      },
+    },
+    {
+      name: 'Pages',
+      url: '/pages',
+      icon: 'fa fa-car',
+      children: [
+        {
+          name: 'Login',
+          url: '/login',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Register',
+          url: '/register',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Error 404',
+          url: '/404',
+          icon: 'fa fa-car',
+        },
+        {
+          name: 'Error 500',
+          url: '/500',
+          icon: 'fa fa-car',
+        },
+      ],
+    },
+    {
+      name: 'Disabled',
+      url: '/dashboard',
+      icon: 'fa fa-car',
+      attributes: { disabled: true },
+    },
+    {
+      name: 'Download Reactjs UI',
+      url: 'https://github.com/reactjsui/react-admin-template-based-on-bootstrap',
+      icon: 'fa fa-car',
+      class: 'mt-auto',
+      variant: 'success',
+      attributes: { target: '_blank', rel: "noopener" },
     },
   ],
 };
