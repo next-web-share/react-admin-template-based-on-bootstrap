@@ -2,7 +2,12 @@ import React, { Component, Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import AppHeader from '../Header';
+import AppSidebar from '../Sidebar';
+import AppSidebarHeader from '../SidebarHeader';
+import AppSidebarForm from '../SidebarForm';
 import AppSidebarNav from '../SidebarNav';
+import AppSidebarFooter from '../SidebarFooter';
+import AppSidebarMinimizer from '../SidebarMinimizer';
 import AppFooter from '../Footer';
 
 // routes config
@@ -31,7 +36,15 @@ class Layout extends Component {
           </Suspense>
         </AppHeader>
         <div className="app-body">
-          <AppSidebarNav navConfig={navigation} {...this.props} />
+          <AppSidebar fixed display="lg">
+            <AppSidebarHeader />
+            <AppSidebarForm />
+            <Suspense>
+              <AppSidebarNav navConfig={navigation} {...this.props} />
+            </Suspense>
+            <AppSidebarFooter />
+            <AppSidebarMinimizer />
+          </AppSidebar>
           <main className="main">
             <Suspense fallback={this.loading()}>
               <Switch>

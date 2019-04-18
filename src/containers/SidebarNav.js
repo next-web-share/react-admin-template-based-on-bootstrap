@@ -150,8 +150,9 @@ class SidebarNav extends Component {
   navBadge(badge) {
     if (badge) {
       const classes = classNames(badge.class);
+
       return (
-        <Badge className={classes} color={badge.variant}>{badge.text}</Badge>
+        <Badge className={classes} variant={badge.variant}>{badge.text}</Badge>
       );
     }
     return null;

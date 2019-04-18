@@ -33,7 +33,7 @@ class Header extends Component {
 
     delete attributes.fixed;
 
-    const classes = classNames(className, 'app-header', 'navbar');
+    const classes = classNames(className, 'app-header', 'navbar', 'navbar-expand');
 
     return (
       <Tag className={classes} {...attributes}>
