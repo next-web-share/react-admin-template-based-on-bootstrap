@@ -10,8 +10,8 @@ import Navbars from './Navbars';
 import Navs from './Navs';
 import Paginations from './Paginations';
 import Popovers from './Popovers';
-// import ProgressBar from './ProgressBar';
-// import Switches from './Switches';
+import ProgressBar from './ProgressBar';
+import Switches from './Switches';
 // import Tables from './Tables';
 // import Tabs from './Tabs';
 // import Tooltips from './Tooltips';
@@ -29,8 +29,8 @@ export {
   Navs,
   Paginations,
   Popovers,
-  // ProgressBar,
-  // Switches,
+  ProgressBar,
+  Switches,
   // Tables,
   // Tabs,
   // Tooltips
