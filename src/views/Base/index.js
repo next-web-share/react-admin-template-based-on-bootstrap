@@ -12,9 +12,9 @@ import Paginations from './Paginations';
 import Popovers from './Popovers';
 import ProgressBar from './ProgressBar';
 import Switches from './Switches';
-// import Tables from './Tables';
-// import Tabs from './Tabs';
-// import Tooltips from './Tooltips';
+import Tables from './Tables';
+import Tabs from './Tabs';
+import Tooltips from './Tooltips';
 
 export {
   Breadcrumbs,
@@ -31,8 +31,8 @@ export {
   Popovers,
   ProgressBar,
   Switches,
-  // Tables,
-  // Tabs,
-  // Tooltips
+  Tables,
+  Tabs,
+  Tooltips
 };
 

@@ -17,6 +17,9 @@ const Paginations = React.lazy(() => import('./views/Base/Paginations'));
 const Popovers = React.lazy(() => import('./views/Base/Popovers'));
 const ProgressBar = React.lazy(() => import('./views/Base/ProgressBar'));
 const Switches = React.lazy(() => import('./views/Base/Switches'));
+const Tables = React.lazy(() => import('./views/Base/Tables'));
+const Tabs = React.lazy(() => import('./views/Base/Tabs'));
+const Tooltips = React.lazy(() => import('./views/Base/Tooltips'));
 
 const Buttons = React.lazy(() => import('./views/Buttons/Buttons'));
 const ButtonDropdowns = React.lazy(() => import('./views/Buttons/ButtonDropdowns'));
@@ -44,6 +47,9 @@ const routes = [
   { path: '/base/popovers', name: 'Popovers', component: Popovers },
   { path: '/base/progress-bar', name: 'Progress Bar', component: ProgressBar },
   { path: '/base/switches', name: 'Switches', component: Switches },
+  { path: '/base/tables', name: 'Tables', component: Tables },
+  { path: '/base/tabs', name: 'Tabs', component: Tabs },
+  { path: '/base/tooltips', name: 'Tooltips', component: Tooltips },
 
   { path: '/buttons', exact: true, name: 'Buttons', component: Buttons },
   { path: '/buttons/buttons', name: 'Buttons', component: Buttons },
