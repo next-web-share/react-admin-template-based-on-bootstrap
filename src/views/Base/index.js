@@ -2,14 +2,14 @@ import Breadcrumbs from './Breadcrumbs';
 import Cards from './Cards';
 import Carousels from './Carousels';
 import Collapses from './Collapses';
-// import Dropdowns from './Dropdowns';
-// import Forms from './Forms';
-// import Jumbotrons from './Jumbotrons';
-// import ListGroups from './ListGroups';
-// import Navbars from './Navbars';
-// import Navs from './Navs';
-// import Popovers from './Popovers';
-// import Paginations from './Paginations';
+import Dropdowns from './Dropdowns';
+import Forms from './Forms';
+import Jumbotrons from './Jumbotrons';
+import ListGroups from './ListGroups';
+import Navbars from './Navbars';
+import Navs from './Navs';
+import Paginations from './Paginations';
+import Popovers from './Popovers';
 // import ProgressBar from './ProgressBar';
 // import Switches from './Switches';
 // import Tables from './Tables';
@@ -20,19 +20,19 @@ export {
   Breadcrumbs,
   Cards,
   Carousels,
-  // Collapses,
-  // Dropdowns,
-  // Forms,
-  // Jumbotrons,
-  // ListGroups,
-  // Navbars,
-  // Navs,
-  // Popovers,
+  Collapses,
+  Dropdowns,
+  Forms,
+  Jumbotrons,
+  ListGroups,
+  Navbars,
+  Navs,
+  Paginations,
+  Popovers,
   // ProgressBar,
   // Switches,
   // Tables,
   // Tabs,
-  // Tooltips,
-  // Paginations
+  // Tooltips
 };
 

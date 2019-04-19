@@ -82,6 +82,11 @@ export default {
           icon: 'fa fa-puzzle-piece',
         },
         {
+          name: 'Navbars',
+          url: '/base/navbars',
+          icon: 'fa fa-puzzle-piece',
+        },
+        {
           name: 'Navs',
           url: '/base/navs',
           icon: 'fa fa-puzzle-piece',
