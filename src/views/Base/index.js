@@ -1,7 +1,7 @@
 import Breadcrumbs from './Breadcrumbs';
-// import Cards from './Cards';
-// import Carousels from './Carousels';
-// import Collapses from './Collapses';
+import Cards from './Cards';
+import Carousels from './Carousels';
+import Collapses from './Collapses';
 // import Dropdowns from './Dropdowns';
 // import Forms from './Forms';
 // import Jumbotrons from './Jumbotrons';
@@ -18,8 +18,8 @@ import Breadcrumbs from './Breadcrumbs';
 
 export {
   Breadcrumbs,
-  // Cards,
-  // Carousels,
+  Cards,
+  Carousels,
   // Collapses,
   // Dropdowns,
   // Forms,
