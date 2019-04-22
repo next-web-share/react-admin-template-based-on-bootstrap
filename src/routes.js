@@ -20,10 +20,12 @@ const Switches = React.lazy(() => import('./views/Base/Switches'));
 const Tables = React.lazy(() => import('./views/Base/Tables'));
 const Tabs = React.lazy(() => import('./views/Base/Tabs'));
 const Tooltips = React.lazy(() => import('./views/Base/Tooltips'));
-
 const Buttons = React.lazy(() => import('./views/Buttons/Buttons'));
 const ButtonDropdowns = React.lazy(() => import('./views/Buttons/ButtonDropdowns'));
 const ButtonGroups = React.lazy(() => import('./views/Buttons/ButtonGroups'));
+const Charts = React.lazy(() => import('./views/Charts'));
+const CodeEditors = React.lazy(() => import('./views/Editors/CodeEditors'));
+const TextEditors = React.lazy(() => import('./views/Editors/TextEditors'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -50,11 +52,14 @@ const routes = [
   { path: '/base/tables', name: 'Tables', component: Tables },
   { path: '/base/tabs', name: 'Tabs', component: Tabs },
   { path: '/base/tooltips', name: 'Tooltips', component: Tooltips },
-
   { path: '/buttons', exact: true, name: 'Buttons', component: Buttons },
   { path: '/buttons/buttons', name: 'Buttons', component: Buttons },
   { path: '/buttons/button-dropdowns', name: 'Button Dropdowns', component: ButtonDropdowns },
   { path: '/buttons/button-groups', name: 'Button Groups', component: ButtonGroups },
+  { path: '/charts', name: 'Charts', component: Charts },
+  { path: '/editors', name: 'Edtors', component: CodeEditors },
+  { path: '/editors/code-editors', name: 'CodeEditors', component: CodeEditors },
+  { path: '/editors/text-editors', name: 'TextEditors', component: TextEditors },
 ];
 
 export default routes;
