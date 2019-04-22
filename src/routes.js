@@ -29,6 +29,7 @@ const TextEditors = React.lazy(() => import('./views/Editors/TextEditors'));
 const BasicForms = React.lazy(() => import('./views/Forms/BasicForms'));
 const AdvancedForms = React.lazy(() => import('./views/Forms/AdvancedForms'));
 const ValidationForms = React.lazy(() => import('./views/Forms/ValidationForms'));
+const GoogleMaps = React.lazy(() => import('./views/GoogleMaps'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -67,6 +68,7 @@ const routes = [
   { path: '/forms/basic-forms', name: 'BasicForms', component: BasicForms },
   { path: '/forms/advanced-forms', name: 'AdvancedForms', component: AdvancedForms },
   { path: '/forms/validation-forms', name: 'ValidationForms', component: ValidationForms },
+  { path: '/google-maps', name: 'GoogleMaps', component: GoogleMaps },
 ];
 
 export default routes;
