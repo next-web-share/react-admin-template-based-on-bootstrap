@@ -67,11 +67,6 @@ export default {
           icon: 'fa fa-puzzle-piece',
         },
         {
-          name: 'Forms',
-          url: '/base/forms',
-          icon: 'fa fa-puzzle-piece',
-        },
-        {
           name: 'Jumbotrons',
           url: '/base/jumbotrons',
           icon: 'fa fa-puzzle-piece',

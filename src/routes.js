@@ -26,6 +26,9 @@ const ButtonGroups = React.lazy(() => import('./views/Buttons/ButtonGroups'));
 const Charts = React.lazy(() => import('./views/Charts'));
 const CodeEditors = React.lazy(() => import('./views/Editors/CodeEditors'));
 const TextEditors = React.lazy(() => import('./views/Editors/TextEditors'));
+const BasicForms = React.lazy(() => import('./views/Forms/BasicForms'));
+const AdvancedForms = React.lazy(() => import('./views/Forms/AdvancedForms'));
+const ValidationForms = React.lazy(() => import('./views/Forms/ValidationForms'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -57,9 +60,13 @@ const routes = [
   { path: '/buttons/button-dropdowns', name: 'Button Dropdowns', component: ButtonDropdowns },
   { path: '/buttons/button-groups', name: 'Button Groups', component: ButtonGroups },
   { path: '/charts', name: 'Charts', component: Charts },
-  { path: '/editors', name: 'Edtors', component: CodeEditors },
+  { path: '/editors', name: 'Editors', component: CodeEditors },
   { path: '/editors/code-editors', name: 'CodeEditors', component: CodeEditors },
   { path: '/editors/text-editors', name: 'TextEditors', component: TextEditors },
+  { path: '/forms/forms', name: 'Forms', component: BasicForms },
+  { path: '/forms/basic-forms', name: 'BasicForms', component: BasicForms },
+  { path: '/forms/advanced-forms', name: 'AdvancedForms', component: AdvancedForms },
+  { path: '/forms/validation-forms', name: 'ValidationForms', component: ValidationForms },
 ];
 
 export default routes;

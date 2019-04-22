@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Forms extends Component {
+class BasicForms extends Component {
   render() {
     return (
-      "Forms"
+      "BasicForms"
     );
   }
 }
 
-export default Forms;
+export default BasicForms;
