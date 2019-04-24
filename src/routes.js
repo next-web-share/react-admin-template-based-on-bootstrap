@@ -8,7 +8,6 @@ const Cards = React.lazy(() => import('./views/Base/Cards'));
 const Carousels = React.lazy(() => import('./views/Base/Carousels'));
 const Collapses = React.lazy(() => import('./views/Base/Collapses'));
 const Dropdowns = React.lazy(() => import('./views/Base/Dropdowns'));
-const Forms = React.lazy(() => import('./views/Base/Forms'));
 const Jumbotrons = React.lazy(() => import('./views/Base/Jumbotrons'));
 const ListGroups = React.lazy(() => import('./views/Base/ListGroups'));
 const Navbars = React.lazy(() => import('./views/Base/Navbars'));
@@ -30,6 +29,9 @@ const BasicForms = React.lazy(() => import('./views/Forms/BasicForms'));
 const AdvancedForms = React.lazy(() => import('./views/Forms/AdvancedForms'));
 const ValidationForms = React.lazy(() => import('./views/Forms/ValidationForms'));
 const GoogleMaps = React.lazy(() => import('./views/GoogleMaps'));
+const Flags = React.lazy(() => import('./views/Icons/Flags'));
+const FontAwesome = React.lazy(() => import('./views/Icons/FontAwesome'));
+const SimpleLineIcons = React.lazy(() => import('./views/Icons/SimpleLineIcons'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -44,7 +46,6 @@ const routes = [
   { path: '/base/carousels', name: 'Carousel', component: Carousels },
   { path: '/base/collapses', name: 'Collapse', component: Collapses },
   { path: '/base/dropdowns', name: 'Dropdowns', component: Dropdowns },
-  { path: '/base/forms', name: 'Forms', component: Forms },
   { path: '/base/jumbotrons', name: 'Jumbotrons', component: Jumbotrons },
   { path: '/base/list-groups', name: 'List Groups', component: ListGroups },
   { path: '/base/navbars', name: 'Navbars', component: Navbars },
@@ -69,6 +70,9 @@ const routes = [
   { path: '/forms/advanced-forms', name: 'AdvancedForms', component: AdvancedForms },
   { path: '/forms/validation-forms', name: 'ValidationForms', component: ValidationForms },
   { path: '/google-maps', name: 'GoogleMaps', component: GoogleMaps },
+  { path: '/icons/flags', name: 'Flags', component: Flags },
+  { path: '/icons/font-awesome', name: 'FontAwesome', component: FontAwesome },
+  { path: '/icons/simple-line-icons', name: 'SimpleLineIcons', component: SimpleLineIcons },
 ];
 
 export default routes;
