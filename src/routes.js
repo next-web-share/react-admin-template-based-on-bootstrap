@@ -32,6 +32,10 @@ const GoogleMaps = React.lazy(() => import('./views/GoogleMaps'));
 const Flags = React.lazy(() => import('./views/Icons/Flags'));
 const FontAwesome = React.lazy(() => import('./views/Icons/FontAwesome'));
 const SimpleLineIcons = React.lazy(() => import('./views/Icons/SimpleLineIcons'));
+const Alerts = React.lazy(() => import('./views/Notifications/Alerts'));
+const Badges = React.lazy(() => import('./views/Notifications/Badges'));
+const Modals = React.lazy(() => import('./views/Notifications/Modals'));
+const Toastr = React.lazy(() => import('./views/Notifications/Toastr'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -70,9 +74,14 @@ const routes = [
   { path: '/forms/advanced-forms', name: 'AdvancedForms', component: AdvancedForms },
   { path: '/forms/validation-forms', name: 'ValidationForms', component: ValidationForms },
   { path: '/google-maps', name: 'GoogleMaps', component: GoogleMaps },
+  { path: '/icons', name: 'Icons', component: Flags },
   { path: '/icons/flags', name: 'Flags', component: Flags },
   { path: '/icons/font-awesome', name: 'FontAwesome', component: FontAwesome },
   { path: '/icons/simple-line-icons', name: 'SimpleLineIcons', component: SimpleLineIcons },
+  { path: '/notifications/alerts', name: 'Alerts', component: Alerts },
+  { path: '/notifications/badges', name: 'Badges', component: Badges },
+  { path: '/notifications/modals', name: 'Modals', component: Modals },
+  { path: '/notifications/toastr', name: 'Toastr', component: Toastr },
 ];
 
 export default routes;
