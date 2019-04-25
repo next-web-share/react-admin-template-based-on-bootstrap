@@ -37,6 +37,8 @@ const Badges = React.lazy(() => import('./views/Notifications/Badges'));
 const Modals = React.lazy(() => import('./views/Notifications/Modals'));
 const Toastr = React.lazy(() => import('./views/Notifications/Toastr'));
 const Calendar = React.lazy(() => import('./views/Plugins/Calendar'));
+const Draggable = React.lazy(() => import('./views/Plugins/Draggable'));
+const Spinners = React.lazy(() => import('./views/Plugins/Spinners'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -84,6 +86,8 @@ const routes = [
   { path: '/notifications/modals', name: 'Modals', component: Modals },
   { path: '/notifications/toastr', name: 'Toastr', component: Toastr },
   { path: '/plugins/calendar', name: 'Calendar', component: Calendar },
+  { path: '/plugins/draggable', name: 'Draggable', component: Draggable },
+  { path: '/plugins/spinners', name: 'Spinners', component: Spinners },
 ];
 
 export default routes;
