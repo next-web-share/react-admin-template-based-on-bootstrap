@@ -107,11 +107,6 @@ export default {
           icon: 'fa fa-puzzle-piece',
         },
         {
-          name: 'Tables',
-          url: '/base/tables',
-          icon: 'fa fa-puzzle-piece',
-        },
-        {
           name: 'Tabs',
           url: '/base/tabs',
           icon: 'fa fa-puzzle-piece',

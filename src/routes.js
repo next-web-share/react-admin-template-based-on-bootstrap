@@ -16,7 +16,6 @@ const Paginations = React.lazy(() => import('./views/Base/Paginations'));
 const Popovers = React.lazy(() => import('./views/Base/Popovers'));
 const ProgressBar = React.lazy(() => import('./views/Base/ProgressBar'));
 const Switches = React.lazy(() => import('./views/Base/Switches'));
-const Tables = React.lazy(() => import('./views/Base/Tables'));
 const Tabs = React.lazy(() => import('./views/Base/Tabs'));
 const Tooltips = React.lazy(() => import('./views/Base/Tooltips'));
 const Buttons = React.lazy(() => import('./views/Buttons/Buttons'));
@@ -39,6 +38,8 @@ const Toastr = React.lazy(() => import('./views/Notifications/Toastr'));
 const Calendar = React.lazy(() => import('./views/Plugins/Calendar'));
 const Draggable = React.lazy(() => import('./views/Plugins/Draggable'));
 const Spinners = React.lazy(() => import('./views/Plugins/Spinners'));
+const DataTable = React.lazy(() => import('./views/Tables/DataTable'));
+const Tables = React.lazy(() => import('./views/Tables/Tables'));
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
 
@@ -61,7 +62,6 @@ const routes = [
   { path: '/base/popovers', name: 'Popovers', component: Popovers },
   { path: '/base/progress-bar', name: 'Progress Bar', component: ProgressBar },
   { path: '/base/switches', name: 'Switches', component: Switches },
-  { path: '/base/tables', name: 'Tables', component: Tables },
   { path: '/base/tabs', name: 'Tabs', component: Tabs },
   { path: '/base/tooltips', name: 'Tooltips', component: Tooltips },
   { path: '/buttons', exact: true, name: 'Buttons', component: Buttons },
@@ -88,6 +88,8 @@ const routes = [
   { path: '/plugins/calendar', name: 'Calendar', component: Calendar },
   { path: '/plugins/draggable', name: 'Draggable', component: Draggable },
   { path: '/plugins/spinners', name: 'Spinners', component: Spinners },
+  { path: '/tables/data-table', name: 'DataTable', component: DataTable },
+  { path: '/tables/tables', name: 'DataTable', component: Tables },
 ];
 
 export default routes;
